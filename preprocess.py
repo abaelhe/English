@@ -9,10 +9,6 @@ filename = os.path.join(curr_dir, dic + ".txt")
 filejson = os.path.join(curr_dir, dic + ".json")
 
 word_types = [
- 'definite article',
- 'indefinite article',
- 'infinitive marker',
- 'number',
  'n.',
  'noun.',
  'pron.',
@@ -25,6 +21,10 @@ word_types = [
  'conj.',
  'det.',
  'exclam.',
+ 'number',
+ 'definite article',
+ 'indefinite article',
+ 'infinitive marker',
  ]
 
 word_levels = [('%c%d' % (i,o)) for i in ['A','B'] for o in range(1,10,1)]
@@ -32,6 +32,7 @@ word_levels = [('%c%d' % (i,o)) for i in ['A','B'] for o in range(1,10,1)]
 
 #cache concated text from all the files.
 def cached_read_data(data_file, data_dir=dir):
+    full_text = ''
     if not os.path.exists(data_file):
         with open(data_file, 'w') as cachefile:
             paths = [os.path.join(data_dir, f) for f in os.listdir(data_dir)]
@@ -39,8 +40,10 @@ def cached_read_data(data_file, data_dir=dir):
             full_text = '\n'.join([one_text.strip() for one_text in texts])
             cachefile.write(full_text)
             cachefile.flush()
-    full_txt = open(data_file).read().strip()
-    return full_txt
+    else:
+        with open(data_file, 'r') as cachefile:
+            full_text = cachefile.read()
+    return full_text
 
 
 # Correction for line continuity
@@ -177,11 +180,11 @@ def print_results(rets, verbose=0):
         word_fmt = '%s|%s' %(word, ','.join(['%s:%s'%(tp,lv) for tp, lv in attrs]))
         oarray.append(word_fmt)
 
-    if verbose == 0:
+    if verbose == 1:
         print(repr(sorted(wtypes)))
-    elif verbose == 1:
-        print('\n'.join(oarray))
     elif verbose == 2:
+        print('\n'.join(oarray))
+    elif verbose == 3:
         print('\n'.join(oarray))
         print(repr(sorted(wtypes)))
 
