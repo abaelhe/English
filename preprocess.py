@@ -145,8 +145,8 @@ def format_text(text):
    
     return results
 
-def save_results(rets, data_file=filejson):
-    if not os.path.exists(data_file):
+def save_results(rets, data_file=filejson, force=0):
+    if force != 0 or not os.path.exists(data_file):
         with open(data_file, 'w') as cachefile:
             ret_dic = {}
             for word, attrs in rets:
@@ -159,6 +159,14 @@ def save_results(rets, data_file=filejson):
             json_text = json.dumps(ret_dic)
             cachefile.write(json_text)
             cachefile.flush()
+            return ret_dic
+
+
+def read_results(data_file=filejson):
+    if os.path.exists(data_file):
+        with open(data_file, 'r') as cachefile:
+            ret_dic = json.load(cachefile)
+            return ret_dic
 
    
 def print_results(rets, verbose=0):
@@ -180,11 +188,15 @@ def print_results(rets, verbose=0):
 
 def main():
     v = int(sys.argv[-1]) if len(sys.argv) > 1 and sys.argv[-1].isdigit() else 0
-    orig_txt = cached_read_data(filename)
-    new_txt = line_continuity(orig_txt)
-    results = format_text(new_txt)
-    save_results(results)
-    print_results(results, v)
+    json_dic = read_results()
+    if json_dic:
+        pass
+    else:
+        orig_txt = cached_read_data(filename)
+        new_txt = line_continuity(orig_txt)
+        results = format_text(new_txt)
+        json_dic = save_results(results)
+        print_results(results, v)
 
 
 if '__main__' == __name__:
