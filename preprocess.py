@@ -8,26 +8,27 @@ dir = os.path.join(curr_dir, dic)
 filename = os.path.join(curr_dir, dic + ".txt")
 filejson = os.path.join(curr_dir, dic + ".json")
 
-word_types = [
- 'n.',
- 'noun.',
- 'pron.',
- 'v.',
- 'auxiliary v.',
- 'modal v.',
- 'adv.',
- 'prep.',
- 'adj.',
- 'conj.',
- 'det.',
- 'exclam.',
- 'number',
- 'definite article',
- 'indefinite article',
- 'infinitive marker',
- ]
+word_types = {
+        'n.':0,
+        'noun.':0,
+        'pron.':1,
+        'v.':2,
+        'auxiliary v.':3,
+        'modal v.':4,
+        'adv.':5,
+        'prep.':6,
+        'adj.':7,
+        'conj.':8,
+        'det.':9,
+        'exclam.':10,
+        'number':11,
+        'definite article':12,
+        'indefinite article':13,
+        'infinitive marker':14,
+ }
 
-word_levels = [('%c%d' % (i,o)) for i in ['A','B'] for o in range(1,10,1)]
+# word_levels = [('%c%d' % (i,o)) for i in ['A','B'] for o in range(1,10,1)]
+word_levels = ["A1", "A2", "B1", "B2"]
 
 
 #cache concated text from all the files.
