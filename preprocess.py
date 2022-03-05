@@ -1,29 +1,30 @@
 #!/usr/bin/env python3
-import os,sys
+import os,sys,json
 from collections import deque
 
 dic = 'oxford_ame_3000'
 curr_dir = '.'
 dir = os.path.join(curr_dir, dic)
 filename = os.path.join(curr_dir, dic + ".txt")
+filejson = os.path.join(curr_dir, dic + ".json")
 
 word_types = [
- 'number',
  'definite article',
  'indefinite article',
  'infinitive marker',
- 'adj.',
- 'adv.',
+ 'number',
+ 'n.',
+ 'noun.',
+ 'pron.',
+ 'v.',
  'auxiliary v.',
+ 'modal v.',
+ 'adv.',
+ 'prep.',
+ 'adj.',
  'conj.',
  'det.',
  'exclam.',
- 'modal v.',
- 'n.',
- 'noun.',
- 'prep.',
- 'pron.',
- 'v.',
  ]
 
 word_levels = [('%c%d' % (i,o)) for i in ['A','B'] for o in range(1,10,1)]
@@ -144,6 +145,21 @@ def format_text(text):
    
     return results
 
+def save_results(rets, data_file=filejson):
+    if not os.path.exists(data_file):
+        with open(data_file, 'w') as cachefile:
+            ret_dic = {}
+            for word, attrs in rets:
+                if word not in ret_dic:
+                    ret_dic[word] = {}
+                wdic = ret_dic[word]
+                for wtype, wlevel in attrs:
+                    wdic[wtype] = wlevel
+
+            json_text = json.dumps(ret_dic)
+            cachefile.write(json_text)
+            cachefile.flush()
+
    
 def print_results(rets, verbose=0):
     oarray = []
@@ -167,6 +183,7 @@ def main():
     orig_txt = cached_read_data(filename)
     new_txt = line_continuity(orig_txt)
     results = format_text(new_txt)
+    save_results(results)
     print_results(results, v)
 
 
