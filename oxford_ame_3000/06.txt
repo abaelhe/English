@@ -1,0 +1,280 @@
+initial adj. B2
+initially adv. B2
+initiative n. B2
+injure v. B1
+injured adj. B1
+injury n. A2
+inner adj. B2
+innocent adj. B1
+inquiry n. B2
+insect n. A2
+inside prep., adv., n., adj. A2
+insight n. B2
+insist v. B2
+inspire v. B2
+install v. B2
+instance n. B2
+instead adv. A2
+institute n. B2
+institution n. B2
+instruction n. A2
+instructor n. A2
+instrument n. A2
+insurance n. B2
+intelligence n. B1
+intelligent adj. A2
+intend v. B1
+intended adj. B2
+intense adj. B2
+intention n. B1
+interest n., v. A1
+interested adj. A1
+interesting adj. A1
+internal adj. B2
+international adj. A2
+internet n. A1
+interpret v. B2
+interrupt v. B2
+interview n., v. A1
+into prep. A1
+introduce v. A1
+introduction n. A2
+invent v. A2
+invention n. A2
+invest v. B1
+investigate v. B1
+investigation n. B2
+investment n. B2
+invitation n. A2
+invite v. A2
+involve v. A2
+involved adj. B1
+iron n., v. B1
+island n. A1
+issue n. B1, v. B2
+IT n. B1
+it pron. A1
+item n. A2
+its det. A1
+itself pron. A2
+jacket n. A1
+jam n. A2
+January n. A1
+jazz n. A2
+jeans n. A1
+jewelry n. A2
+job n. A1
+join v. A1
+joke n., v. A2
+journal n. B1
+journalist n. A2
+journey n. B1
+joy n. B2
+judge n., v. B1
+judgment n. B2
+juice n. A1
+July n. A1
+jump v., n. A2
+June n. A1
+junior adj. B2
+just adv. A1
+justice n. B2
+justify v. B2
+keep v. A1
+key n., adj. A1, v. B1
+keyboard n. B1
+kick v., n. B1
+kid n. A2
+kill v. A2
+killing n. B1
+kilometer n. A2
+kind (type) n. A1
+kind (caring) adj. B1
+king n. A2
+kiss v., n. B1
+kitchen n. A1
+knee n. A2
+knife n. A2
+knock v. A2, n. B1
+know v. A1
+knowledge n. A2
+lab n. A2
+label n., v. B1
+labor n. B2
+laboratory n. B1
+lack n., v. B1
+lady n. A2
+lake n. A2
+lamp n. A2
+land n. A1, v. A2
+landscape n. B2
+language n. A1
+laptop n. A2
+large adj. A1
+largely adv. B2
+last1 (final) det. A1, adv., n. A2
+last1 (taking time) v. A2
+late adj., adv. A1
+later adv. A1, adj. A2
+latest adj. B1, n. B2
+laugh v., n. A1
+laughter n. A2
+launch v., n. B2
+law n. A2
+lawyer n. A2
+lay v. B1
+layer n. B1
+lazy adj. A2
+lead1 v. A2, n. B1
+leader n. A2
+leadership n. B2
+leading adj. B1
+leaf n. B1
+league n. B2
+lean v. B2
+learn v. A1
+learning n. A2
+least det./pron., adv. A2
+leather n. B1
+leave v. A1, n. B2
+lecture n., v. A2
+left adj., adv., n. A1
+leg n. A1
+legal adj. B1
+leisure n. B1
+lemon n. A2
+lend v. A2
+length n. B1
+less det./pron., adv. A2
+lesson n. A1
+let v. A1
+letter n. A1
+level n. A2, adj. B1, v. B2
+library n. A1
+license n. B2
+lie1 v. A1
+lie2 (tell a lie) v., n. B1
+life n. A1
+lifestyle n. A2
+lift v. A2
+light (from the sun/a lamp) n., 
+adj. A1, v. A2
+light (not heavy) adj. A2
+like (similar) prep. A1
+like (find sb/sth pleasant) v. A1, 
+n. B1
+likely adj. A2
+limit n., v. B1
+limited adj. B2
+line n. A1, v. B2
+link n., v. A2
+lion n. A1
+lip n. B1
+liquid n., adj. B1
+list n., v. A1
+listen v. A1
+listener n. A2
+literature n. B1
+little adj., det./pron. A1, adv. A2
+live1 v. A1
+live2 adj., adv. B1
+lively adj. B2
+living adj., n. B1
+load n., v. B2
+loan n. B2
+local adj. A1, n. B1
+locate v. B1
+located adj. B1
+location n. B1
+lock v., n. A2
+logical adj. B2
+lonely adj. B1
+long1 adj., adv. A1
+long-term adj., adv. B2
+look v. A1, n. A2
+loose adj. B2
+lord n. B2
+lose v. A1
+loss n. B1
+lost adj. A2
+lot pron., det., adv. A1
+loud adj., adv. A2
+loudly adv. A2
+love n., v. A1
+low adj., adv. A2, n. B2
+lower v. B2
+luck n. A2
+lucky adj. A2
+lunch n. A1
+lung n. B2
+luxury n. B1
+machine n. A1
+mad adj. B1
+magazine n. A1
+magic n., adj. B1
+mail n., v. A2
+main adj. A1
+mainly adv. B1
+maintain v. B2
+major adj. A2, n. B2
+majority n. B2
+make v. A1, n. B2
+male adj., n. A2
+mall n. A1
+man n. A1
+manage v. A2
+management n. B1
+manager n. A2
+manner n. A2
+many det./pron. A1
+map n. A1, v. B2
+March n. A1
+mark v., n. A2
+market n. A1, v. B1
+marketing n. B1
+marriage n. B1
+married adj. A1
+marry v. A2
+mass n., adj. B2
+massive adj. B2
+master n., v. B2
+match (contest/correspond) n., 
+v. A1
+matching adj. B2
+material n. A2, adj. B2
+math n. A2
+mathematics n. A2
+matter n., v. A2
+maximum adj., n. B2
+May n. A1
+may modal v. A2
+maybe adv. A1
+mayor n. A2
+me pron. A1
+meal n. A1
+mean v. A1
+meaning n. A1
+means n. B2
+meanwhile adv. B1
+measure v., n. B1
+measurement n. B2
+meat n. A1
+media n. A2
+medical adj. A2
+medicine n. A2
+medium adj. B1, n. B2
+meet v. A1
+meeting n. A1
+melt v. B2
+member n. A1
+memory n. A2
+mental adj. B1
+mention v. A2, n. B1
+menu n. A1
+mess n., v. B1
+message n. A1
+metal n. A2
+meter n. A1
+method n. A2
+middle n., adj. A2
+midnight n. A1

@@ -1,0 +1,280 @@
+request n. A2, v. B1
+require v. B1
+requirement n. B2
+rescue v., n. B2
+research n., v. A2
+researcher n. A2
+reservation n. B1
+reserve n., v. B2
+resident n., adj. B2
+resist v. B2
+resolve v. B2
+resort n. B2
+resource n. B1
+respect n., v. B1
+respond v. A2
+response n. A2
+responsibility n. B1
+responsible adj. B1
+rest (remaining part) n. A2
+rest (sleep/relax) n., v. A2
+restaurant n. A1
+result n. A1, v. B1
+retain v. B2
+retire v. B1
+retired adj. B1
+return v., n. A1
+reveal v. B2
+review n., v. A2
+revise v. B1
+revolution n. B2
+reward n., v. B2
+rhythm n. B2
+rice n. A1
+rich adj. A1
+rid v. B2
+ride v. A1, n. A2
+right adj., adv., n. A1
+ring1 n. A2
+ring2 v. A2, n.B1
+rise v. A2, n. B2
+risk n., v. B1
+river n. A1
+road n. A1
+robot n. B1
+rock (stone) n. A2
+rock (music) n. A2
+role n. A2
+roll v., n. B1
+romantic adj. B1
+roof n. A2
+room n. A1
+root n. B2
+rope n. B1
+rough adj. B1
+round adj., adv., prep. A2, n. B2
+route n. A2
+routine n. A1, adj. B2
+row1 n. B1
+royal adj. B1
+rub v. B2
+rubber n., adj. B2
+rude adj. A2
+rule n. A1, v. B1
+run v. A1, n. A2
+runner n. A2
+running n. A2
+rural adj. B2
+rush v., n. B2
+sad adj. A1
+sadly adv. A2
+safe adj. A2
+safety n. B1
+sail v. A2, n. B1
+sailing n. A2
+sailor n. B1
+salad n. A1
+salary n. A2
+sale n. A2
+salt n. A1
+same adj., pron., adv. A1
+sample n. B1, v. B2
+sand n. B1
+sandwich n. A1
+satellite n. B2
+satisfied adj. B2
+satisfy v. B2
+Saturday n. A1
+sauce n. A2
+save v. A2
+saving n. B2
+say v. A1
+scale n. B2
+scan v. B1
+scared adj. A2
+scary adj. A2
+scene n. A2
+schedule n. A2, v. B2
+school n. A1
+science n. A1
+scientific adj. B1
+scientist n. A1
+score v., n. A2
+scream v., n. B2
+screen n. A2, v. B2
+script n. B1
+sculpture n. B1
+sea n. A2
+search n., v. A2
+season n. A2
+seat n. A2, v. B2
+second1 (next after the first) det./
+number A1, adv. A2
+second1 (unit of time) n. A1
+secondary adj. B1
+secret adj., n. A2
+secretary n. A2
+section n. A1
+sector n. B2
+secure v., adj. B2
+security n. B1
+see v. A1
+seed n. B1
+seek v. B2
+seem v. A2
+select v. B2
+selection n. B2
+self n. B2
+sell v. A1
+senate n. B2
+senator n. B2
+send v. A1
+senior adj. B2
+sense n. A2, v. B2
+sensible adj. B1
+sensitive adj. B2
+sentence n. A1, v. B2
+separate adj. A2, v. B1
+September n. A1
+sequence n. B2
+series n. A2
+serious adj. A2
+seriously adv. B1
+servant n. B1
+serve v. A2
+service n. A2
+session n. B2
+set (put) v. B1
+set (group) n. B1
+setting n. B1
+settle v. B2
+seven number A1
+seventeen number A1
+seventy number A1
+several det./pron. A2
+severe adj. B2
+sex n. B1
+sexual adj. B1
+shade n. B2
+shadow n. B2
+shake v. A2, n. B1
+shall modal v. B2
+shallow adj. B2
+shame n. B2
+shape n. A2, v. B2
+share v. A1, n. B1
+sharp adj. B1
+she pron. A1
+sheep n. A1
+sheet n. A2
+shelf n. B1
+shell n. B1
+shelter n., v. B2
+shift n. B1, v. B2
+shine v. B1
+shiny adj. B1
+ship n. A2, v. B2
+shirt n. A1
+shock n., v. B2
+shocked adj. B2
+shoe n. A1
+shoot v. B1
+shooting n. B2
+shop n., v. A1
+shopping n. A1
+short adj. A1
+shot n. B2
+should modal v. A1
+shoulder n. A2
+shout v., n. A2
+show v., n. A1
+shower n. A1
+shut v., adj. A2
+shy adj. B1
+sick adj. A1
+side n. A2
+sight n. B1
+sign n., v. A2
+signal n., v. B1
+significant adj. B2
+significantly adv. B2
+silence n. B2
+silent adj. B1
+silk n. B2
+silly adj. B1
+silver n., adj. A2
+similar adj. A1
+similarity n. B1
+similarly adv. B1
+simple adj. A2
+simply adv. B1
+since prep., conj. A2, adv. B1
+sincere adj. B2
+sing v. A1
+singer n. A1
+singing n. A2
+single adj., n. A2
+sink v. B1
+sir n. A2
+sister n. A1
+sit v. A1
+site n. A2
+situation n. A1
+six number A1
+sixteen number A1
+sixty number A1
+size n. A2
+ski v., n. A2
+skiing n. A2
+skill n. A1
+skin n. A2
+skirt n. A1
+sky n. A2
+slave n. B1
+sleep v. A1, n. A2
+slice n., v. B1
+slide v., n. B2
+slight adj. B2
+slightly adv. B1
+slip v. B2
+slope n., v. B2
+slow adj. A1, v. B1
+slowly adv. A2
+small adj. A1
+smart adj. A1
+smartphone n. A2
+smell v., n. A2
+smile v., n. A2
+smoke n., v. A2
+smoking n. A2
+smooth adj. B1
+snake n. A1
+sneaker n. A2
+snow n., v. A1
+so adv., conj. A1
+soap n. A2
+soccer n. A2
+social adj. A2
+society n. A2
+sock n. A2
+soft adj. A2
+software n. B1
+soil n. B1
+solar adj. B2
+soldier n. A2
+solid adj., n. B1
+solution n. A2
+solve v. A2
+some det., pron. A1
+somebody pron. A1
+someone pron. A1
+something pron. A1
+sometimes adv. A1
+somewhat adv. B2
+somewhere adv., pron. A2
+son n. A1
+song n. A1
+soon adv. A1
+sorry adj., exclam. A1
+sort n. A2, v. B1
+soul n. B2

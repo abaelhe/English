@@ -1,0 +1,280 @@
+drop v. A2, n. B1
+drug n. A2
+drum n. B1
+drunk adj. B1
+dry adj., v. A2
+due adj. B1
+during prep. A1
+dust n. B1
+duty n. B1
+DVD n. A1
+each det./pron./adv. A1
+ear n. A1
+early adj., adv. A1
+earn v. A2
+earth n. A2
+earthquake n. B1
+easily adv. A2
+east n., adj., adv. A1
+eastern adj. B1
+easy adj. A1
+eat v. A1
+economic adj. B1
+economy n. B1
+edge n. B1
+edit v. B2
+edition n. B2
+editor n. B1
+educate v. B1
+educated adj. B1
+education n. A2
+educational adj. B1
+effect n. A2
+effective adj. B1
+effectively adv. B1
+efficient adj. B2
+effort n. B1
+egg n. A1
+eight number A1
+eighteen number A1
+eighty number A1
+either det./pron., adv. A2
+elderly adj. B2
+elect v. B2
+election n. B1
+electric adj. A2
+electrical adj. A2
+electricity n. A2
+electronic adj. A2
+element n. B1
+elephant n. A1
+elevator n. A2
+eleven number A1
+else adv. A1
+elsewhere adv. B2
+email n., v. A1
+embarrassed adj. B1
+embarrassing adj. B1
+emerge v. B2
+emergency n. B1
+emotion n. B1
+emotional adj. B2
+emphasis n. B2
+emphasize v. B2
+employ v. A2
+employee n. A2
+employer n. A2
+employment n. B1
+empty adj. A2, v. B1
+enable v. B2
+encounter v., n. B2
+encourage v. B1
+end n., v. A1
+ending n. A2
+enemy n. B1
+energy n. A2
+engage v. B2
+engaged adj. B1
+engine n. A2
+engineer n. A2
+engineering n. B1
+enhance v. B2
+enjoy v. A1
+enormous adj. A2
+enough det., pron., adv. A1
+ensure v. B2
+enter v. A2
+entertain v. B1
+entertainment n. B1
+enthusiasm n. B2
+enthusiastic adj. B2
+entire adj. B2
+entirely adv. B2
+entrance n. B1
+entry n. B1
+environment n. A2
+environmental adj. B1
+episode n. B1
+equal adj., v. B1, n. B2
+equally adv. B1
+equipment n. A2
+error n. A2
+escape v., n. B1
+especially adv. A2
+essay n. A2
+essential adj. B1
+establish v. B2
+estate n. B2
+estimate v., n. B2
+ethical adj. B2
+euro n. A1
+evaluate v. B2
+even adv. A1, adj. B2
+evening n. A1
+event n. A1
+eventually adv. B1
+ever adv. A1
+every det. A1
+everybody pron. A1
+everyday adj. A2
+everyone pron. A1
+everything pron. A1
+everywhere adv. A2
+evidence n. A2
+evil adj., n. B2
+exact adj. A2
+exactly adv. A2
+exam n. A1
+examination n. B2
+examine v. B1
+example n. A1
+excellent adj. A2
+except prep. A2, conj. B1
+exchange n., v. B1
+excited adj. A1
+excitement n. B1
+exciting adj. A1
+excuse n., v. B2
+executive n., adj. B2
+exercise n., v. A1
+exhibit v., n. B2
+exhibition n. B1
+exist v. A2
+existence n. B2
+exit n. B1, v. B2
+expand v. B1
+expect v. A2
+expectation n. B2
+expected adj. B1
+expense n. B2
+expensive adj. A1
+experience n. A2, v. B1
+experienced adj. B1
+experiment n. A2, v. B1
+expert n., adj. A2
+explain v. A1
+explanation n. A2
+explode v. B1
+exploration n. B2
+explore v. B1
+explosion n. B1
+export n., v. B1
+expose v. B2
+express v. A2
+expression n. A2
+extend v. B2
+extent n. B2
+external adj. B2
+extra adj. A1, n., adv. B1
+extraordinary adj. B2
+extreme adj. A2, n. B2
+extremely adv. A2
+eye n. A1
+face n. A1, v. B1
+facility n. B2
+fact n. A1
+factor n. A2
+factory n. A2
+fail v. A2
+failure n. B2
+fair adj. A2
+fairly adv. B1
+faith n. B2
+fall v., n. A1
+false adj. A1
+familiar adj. B1
+family n., adj. A1
+famous adj. A1
+fan n. A2
+fancy adj. B1
+fantastic adj. A1
+far adv. A1, adj. B1
+farm n. A1, v.A2
+farmer n. A1
+farming n. A2
+fascinating adj. B1
+fashion n. A2
+fashionable adj. B1
+fast adj., adv. A1
+fasten v. B1
+fat adj. A1, n.A2
+father n. A1
+fault n. B2
+favor n. B1, v. B2
+favorite adj., n. A1
+fear n. A2, v. B1
+feather n. B2
+feature n. A2, v. B1
+February n. A1
+federal adj. B1
+fee n. B2
+feed v. A2, n. B2
+feedback n. B2
+feel v. A1, n. B2
+feeling n. A1
+fellow adj. B2
+female adj., n. A2
+fence n. B1
+festival n. A1
+fever n. A2
+few det./adj., pron. A1
+fiction n. A2
+field n. A2
+fifteen number A1
+fifth number A1
+fifty number A1
+fight v., n. A2
+fighting n. B1
+figure n. A2, v. B2
+file n. B1, v. B2
+fill v. A1
+film n., v. A2
+final adj. A1, n. A2
+finally adv. A2
+finance n., v. B2
+financial adj. B1
+find v. A1
+finding n. B2
+fine adj. A1
+finger n. A2
+finish v. A1, n. A2
+fire n. A1, v. A2
+firm n. B2
+first det./number, adv. A1, n. A2
+fish n. A1, v.A2
+fishing n. A2
+fit v., adj. A2
+fitness n. B1
+five number A1
+fix v. A2, n. B2
+fixed adj. B1
+flag n. B1
+flame n. B2
+flash n., v. B2
+flat adj. A2
+flexible adj. B2
+flight n. A1
+float v. B2
+flood n., v. B1
+floor n. A1
+flour n. B1
+flow v., n. B1
+flower n. A1
+flu n. A2
+fly v. A1, n. A2
+flying n., adj. A2
+focus v., n. A2
+fold v. B1, n. B2
+folding adj. B2
+folk n., adj. B1
+follow v. A1
+following adj. A2, n. B1, prep. B2
+food n. A1
+foot n. A1
+football n. A1
+for prep. A1
+force n., v. B1
+foreign adj. A2
+forest n. A2
+forever adv. B1
+forget v. A1

@@ -1,0 +1,234 @@
+tree n. A1
+trend n. B1
+trial n. B2
+trick n., v. B1
+trip n. A1, v. B2
+tropical adj. B2
+trouble n. A2, v. B2
+truck n. A1
+true adj. A1
+truly adv. B2
+trust n., v. B2
+truth n. B1
+try v. A1, n. B2
+T-shirt n. A1
+tube n. B1
+Tuesday n. A1
+tune n. B2
+tunnel n. B2
+turn v., n. A1
+TV n. A1
+twelve number A1
+twenty number A1
+twice adv. A1
+twin n., adj. A2
+two number A1
+type n. A1, v. B1
+typical adj. A2
+typically adv. B1
+ugly adj. B1
+ultimately adv. B2
+umbrella n. A1
+unable adj. B1
+uncle n. A1
+uncomfortable adj. B1
+unconscious adj. B2
+under prep., adv. A1
+underground adj., adv. A2
+understand v. A1
+understanding n. A2
+underwear n. B1
+unemployed adj. B1
+unemployment n. B1
+unexpected adj. B2
+unfair adj. B1
+unfortunately adv. A2
+unhappy adj. A2
+uniform n. A2
+union n. B1
+unique adj. B2
+unit n. A2
+united adj. A2
+universe n. B2
+university n. A1
+unknown adj. B2
+unless conj. B1
+unlike prep. B1
+unlikely adj. B1
+unnecessary adj. B1
+unpleasant adj. B1
+until conj./prep. A1
+unusual adj. A2
+up adv., prep. A1
+update v., n. B1
+upon prep. B1
+upper adj. B2
+upset adj., v. B1
+upstairs adv. A1, adj. A2
+upward adv. B2
+urban adj. B2
+urge v. B2
+us pron. A1
+use v. A1, n. A2
+used1 adj. B1
+used2 adj. B1
+used to modal v. A2
+useful adj. A1
+user n. A2
+usual adj. A2
+usually adv. A1
+vacation n. A1
+valley n. A2
+valuable adj. B1
+value n. B1, v. B2
+van n. B2
+variety n. A2
+various adj. B1
+vary v. B2
+vast adj. B2
+vegetable n. A1
+vehicle n. A2
+venue n. B2
+version n. B1
+very adv. A1, adj. B2
+via prep. B2
+victim n. B1
+victory n. B2
+video n. A1
+view n. A2, v. B1
+viewer n. B1
+village n. A2
+violence n. B2
+violent adj. B1
+virtual adj. B2
+virus n. A2
+vision n. B2
+visit v., n. A1
+visitor n. A1
+visual adj. B2
+vital adj. B2
+vitamin n. B2
+voice n. A2
+volume n. B2
+volunteer n., v. B1
+vote n., v. B1
+wage n. B2
+wait v. A1, n. A2
+waiter n. A1
+wake v. A1
+walk v., n. A1
+wall n. A1
+want v. A1
+war n. A2
+warm adj. A1, v. B1
+warn v. B1
+warning n. B1
+wash v. A1, n. A2
+washing n. A2
+waste n., v., adj. B1
+watch v., n. A1
+water n. A1, v. B1
+wave n. A2, v. B1
+way n. A1, adv. B2
+we pron. A1
+weak adj. A2
+weakness n. B2
+wealth n. B2
+wealthy adj. B2
+weapon n. B1
+wear v. A1
+weather n. A1
+web n. A2
+website n. A1
+wedding n. A2
+Wednesday n. A1
+week n. A1
+weekend n. A1
+weigh v. B1
+weight n. A2
+welcome exclam., v., adj. A1, n. A2
+well adv., adj., exclam. A1
+west n., adj., adv. A1
+western adj. B1
+wet adj. A2
+what pron./det. A1
+whatever det./pron. B1
+wheel n. A2
+when adv., pron., conj. A1
+whenever conj. B1
+where adv., conj. A1
+whereas conj. B2
+wherever conj. B2
+whether conj. B1
+which pron./det. A1
+while conj. A2, n. B1
+whisper v., n. B2
+white adj., n. A1
+who pron. A1
+whole adj. A2, n. B1
+whom pron. B2
+whose det./pron. A2
+why adv. A1
+wide adj. A2
+widely adv. B2
+wife n. A1
+wild adj. A2
+wildlife n. B2
+will modal v. A1, n. B1
+willing adj. B2
+win v. A1, n. B1
+wind1 n. A2
+wind2 v. B2
+window n. A1
+wine n. A1
+wing n. B1
+winner n. A2
+winter n. A1
+wire n. B2
+wise adj. B2
+wish v., n. A2
+with prep. A1
+within prep. B1
+without prep. A1
+witness n., v. B2
+woman n. A1
+wonder v., n. B1
+wonderful adj. A1
+wood n. A2
+wooden adj. A2
+wool n. B1
+word n. A1
+work v., n. A1
+worker n. A1
+working adj. A2
+world n. A1
+worldwide adj., adv. B1
+worried adj. A2
+worry v. A2, n. B1
+worse adj. A2, adv. B1, n. B2
+worst adj. A2, adv. B1, n. B2
+worth adj. B1, n. B2
+would modal v. A1
+wound n., v. B2
+wow exclam. A2
+wrap v. B2
+write v. A1
+writer n. A1
+writing n. A1
+written adj. B1
+wrong adj. A1, adv. B1, n. B2
+yard n. A1
+yeah exclam. A1
+year n. A1
+yellow adj., n. A1
+yes exclam. A1
+yesterday adv., n. A1
+yet adv. A2, conj. B2
+you pron. A1
+young adj. A1, n. B1
+your det. A1
+yours pron. A2
+yourself pron. A1
+youth n. B1
+zero number A2
+zone n. B2

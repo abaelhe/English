@@ -1,0 +1,280 @@
+beer n. A1
+before prep. A1, conj., adv.A2
+beg v. B2
+begin v. A1
+beginning n. A1
+behave v. A2
+behavior n. A2
+behind prep., adv. A1
+being n. B2
+belief n. B1
+believe v. A1
+bell n. B1
+belong v. A2
+below adv., prep. A1
+belt n. A2
+bend v., n. B1
+benefit n. A2, v. B1
+bent adj. B2
+best adj. A1, adv., n. A2
+bet v., n. B2
+better adj. A1, adv. A2, n. B1
+between prep. A1, adv. A2
+beyond prep., adv. B2
+bicycle n. A1
+big adj. A1
+bike n. A1
+bill n. A1, v. B2
+billion number A2
+biology n. A2
+bird n. A1
+birth n. A2
+birthday n. A1
+bit n. A2
+bite v., n. B1
+bitter adj. B2
+black adj., n. A1
+blame v., n. B2
+blank adj., n. A2
+blind adj. B2
+block n. A2, v. B1
+blog n. A1
+blond adj. A1
+blood n. A2
+blow v. A2
+blue adj., n. A1
+board n. A2, v. B1
+boat n. A1
+body n. A1
+boil v. A2
+bomb n., v. B1
+bond n. B2
+bone n. A2
+book n. A1, v. A2
+boot n. A1
+border n. B1, v. B2
+bored adj. A1
+boring adj. A1
+born v. A1
+borrow v. A2
+boss n. A2
+both det./pron. A1
+bother v. B1
+bottle n. A1
+bottom n., adj. A2
+bowl n. A2
+box n. A1
+boy n. A1
+boyfriend n. A1
+brain n. A2
+branch n. B1
+brand n., v. B1
+brave adj. B1
+bread n. A1
+break v., n. A1
+breakfast n. A1
+breast n. B2
+breath n. B1
+breathe v. B1
+breathing n. B1
+bride n. B1
+bridge n. A2
+brief adj. B2
+bright adj. A2
+brilliant adj. A2
+bring v. A1
+broad adj. B2
+broadcast v., n. B2
+broken adj. A2
+brother n. A1
+brown adj., n. A1
+brush v., n. A2
+bubble n. B1
+budget n. B2
+build v. A1
+building n. A1
+bullet n. B2
+bunch n. B2
+burn v. A2, n. B2
+bury v. B1
+bus n. A1
+bush n. B2
+business n. A1
+businessman n. A2
+busy adj. A1
+but conj. A1, prep. B2
+butter n. A1
+button n. A2
+buy v. A1
+by prep. A1, adv. B1
+bye exclam. A1
+cable n. B1
+cafe n. A1
+cake n. A1
+calculate v. B2
+call v., n. A1
+calm adj., v., n. B1
+camera n. A1
+camp n., v. A2
+campaign n., v. B1
+camping n. A2
+campus n. A2
+can1 modal v. A1
+can2 n. A2
+cancel v. B2
+cancer n. B2
+candidate n. B1
+candy n. A2
+cannot v. A1
+cap n. B1
+capable adj. B2
+capacity n. B2
+capital n., adj. A1
+captain n. B1
+capture v., n. B2
+car n. A1
+card n. A1
+care n., v. A2
+career n. A1
+careful adj. A2
+carefully adv. A2
+careless adj. B1
+carpet n. A2
+carrot n. A1
+carry v. A1
+cartoon n. A2
+case n. A2
+cash n. A2
+cast n., v. B2
+cat n. A1
+catch v. A2, n. B2
+category n. B1
+cause n., v. A2
+CD n. A1
+ceiling n. B1
+celebrate v. A2
+celebration n. B1
+celebrity n. A2
+cell n. A2
+cent n. A1
+center n. A1, v. B1
+central adj. B1
+century n. A2
+ceremony n. B1
+certain adj. A2
+certainly adv. A2
+chain n. B1, v. B2
+chair n. A1, v. B2
+chairman n. B2
+challenge n. B1, v. B2
+champion n. B1
+chance n. A2
+change v., n. A1
+channel n. B1
+chapter n. B1
+character n. A2
+characteristic n., adj. B2
+charge n., v. B1
+charity n. A2
+chart n. A1, v. B2
+chat v., n. A2
+cheap adj. A1, adv. B1
+cheat v., n. B1
+check v. A1, n. A2
+cheerful adj. B1
+cheese n. A1
+chef n. A2
+chemical adj., n. B1
+chemistry n. A2
+chest n. B1
+chicken n. A1
+chief adj., n. B2
+child n. A1
+childhood n. B1
+chip n. A2
+chocolate n. A1
+choice n. A2
+choose v. A1
+church n. A2
+cigarette n. A2
+circle n., v. A2
+circumstance n. B2
+cite v. B2
+citizen n. B2
+city n. A1
+civil adj. B2
+claim v., n. B1
+class n. A1
+classic adj., n. B2
+classical adj. A2
+classroom n. A1
+clause n. B1
+clean adj., v. A1
+clear adj. A2, v. B1
+clearly adv. A2
+clerk n. A2
+clever adj. B1
+click v., n. B1
+client n. B1
+climate n. A2
+climb v. A1, n.B1
+clock n. A1
+close1 v. A1, n. B2
+close2 adj. A2, adv.B1
+closed adj. A2
+closely adv. B2
+closet n. A2
+cloth n. B1
+clothes n. A1
+clothing n. A2
+cloud n. A2
+club n. A1
+clue n. B1
+coach n. A2, v. B1
+coal n. B1
+coast n. A2
+coat n. A1
+code n. A2
+coffee n. A1
+coin n. B1
+cold adj., n. A1
+collapse v., n. B2
+colleague n. A2
+collect v. A2
+collection n. B1
+college n. A1
+color n. A1
+colored adj. B1
+column n. A2
+combination n. B2
+combine v. B1
+come v. A1
+comedy n. A2
+comfort n., v. B2
+comfortable adj. A2
+command n., v. B2
+comment n. A2, v. B1
+commercial adj., n. B1
+commission n., v. B2
+commit v. B1
+commitment n. B2
+committee n. B2
+common adj. A1
+commonly adv. B2
+communicate v. A2
+communication n. B1
+community n. A2
+company n. A1
+compare v. A1
+comparison n. B1
+compete v. A2
+competition n. A2
+competitive adj. B1
+competitor n. B1
+complain v. A2
+complaint n. B1
+complete adj., v. A1
+completely adv. A2
+complex adj. B1, n.B2
+complicated adj. B2
+component n. B2
