@@ -1,20 +1,23 @@
 #!/usr/bin/env python3
+import os,sys
 from collections import deque
 
-filename = "./oxford_ame_3000.txt"
-orig_txt = open(filename).read().strip()
+dic = 'oxford_ame_3000'
+curr_dir = '.'
+dir = os.path.join(curr_dir, dic)
+filename = os.path.join(curr_dir, dic + ".txt")
 
 word_types = [
  'number',
+ 'definite article',
+ 'indefinite article',
+ 'infinitive marker',
  'adj.',
  'adv.',
  'auxiliary v.',
  'conj.',
- 'definite article',
  'det.',
  'exclam.',
- 'indefinite article',
- 'infinitive marker',
  'modal v.',
  'n.',
  'noun.',
@@ -23,103 +26,149 @@ word_types = [
  'v.',
  ]
 
-levels = [('%c%d' % (i,o)) for i in ['A','B'] for o in range(1,10,1)]
+word_levels = [('%c%d' % (i,o)) for i in ['A','B'] for o in range(1,10,1)]
 
-ret = []
-line_array = deque()
+
+#cache concated text from all the files.
+def cached_read_data(data_file, data_dir=dir):
+    if not os.path.exists(data_file):
+        with open(data_file, 'w') as cachefile:
+            paths = [os.path.join(data_dir, f) for f in os.listdir(data_dir)]
+            texts = [open(p).read() for p in paths]
+            full_text = '\n'.join([one_text.strip() for one_text in texts])
+            cachefile.write(full_text)
+            cachefile.flush()
+    full_txt = open(data_file).read().strip()
+    return full_txt
+
+
 # Correction for line continuity
-for x in orig_txt.splitlines():
-    x = x.strip()
-    if len(line_array)>0 and line_array[-1][-1] in (',', '.','/'):
-        prev_line = line_array.pop() + ' ' + x 
-        line_array.append(prev_line)
-    else:
-        line_array.append(x)
+def line_continuity(text):
+    line_array = []
+    for line in text.splitlines():
+        line = line.strip()
+        if len(line_array)>0 and line_array[-1][-1] in (',', '.','/'):
+            full_line = line_array.pop() + ' ' + line
+            line_array.append(full_line)
+        else:
+            line_array.append(line)
+    text = '\n'.join(line_array)
+    return text
 
-# Sync And Correction for multi levels split:
-new_txt = '\n'.join(line_array)
 
-# For example: "all det., pron. A1, adv. A2" -> "all det., pron. A1| adv. A2"
-for k,n in [('%s,' % lv, '%s|' % lv)  for lv in levels]: 
-    new_txt = new_txt.replace(k,n)
-
-# Correction for "climb v. A1, n.B1" -> "climb v. A1, n. B1"
-for k,n in [('.%s' % lv, '. %s' % lv) for lv in levels]: 
-    new_txt = new_txt.replace(k,n)
-
-line_array.clear()
-line_array.extend(new_txt.splitlines())
-
-for x in line_array:
-    if len(x) < 1:
-        continue
-
-    w = ''
-    multi_word = False
-    multi_level = 0
-    multi_attr = 0
-    attrs = []
-    m = x.strip()
-
-    if 0 and m.startswith('bear'):
-        import pdb;pdb.set_trace()
-            
-    while len(m)>0:
+def get_word(marks, word=''):
+    while len(marks)>0:
         # Correction for word:
         #  "all det., pron. A1, adv. A2"
         #  "all right adj./adv. A2"
-        if len(w)>0 and any([m.startswith(kw) for kw in word_types]):
+        if len(word)>0 and any([marks.startswith(kw) for kw in word_types]):
             break
-
-# Correction for some sort of 'light (from the sun/a lamp) n.,' 
-        if m.startswith('('):
-            idx = m.find(')')
-            w = w + m[:(1+idx)]
-            m = m[(1+idx):].strip()
+        
+        #combine the word and note as a packed word
+        # eg: will use 'light(from the sun/a lamp)' as the packed word for:
+        #    'light (from the sun/a lamp) n.,'  
+        if marks.startswith('('):
+            idx = marks.find(')')
+            word = word + marks[:(1+idx)]
+            marks = marks[(1+idx):].strip()
             continue
             
-        p,_,m = m.partition(' ')
-        m = m.lstrip()
+        piece,_,marks = marks.partition(' ')
+        marks = marks.lstrip()
 
-        if p.endswith(','):
-            multi_word = True
-            p = p.rstrip(',')
-            w = (w + ',' + p) if (len(w)>0 and len(p)>0) else p
+        # remove ' '(char. space) for multi-word in one line:
+        # eg: "a, an indefinite article A1"
+        if len(word) == 0:
+            word = piece
+            continue
+        elif word.endswith(','):
+            word = (word + piece) if len(piece)>0 else word
             continue
         else:
-            w = (w + ' ' + p) if w else p
+            word = (word + ' ' + piece) if len(piece)>0 else word
 
-# Correction for some sort of "all right adj./adv. A2"
-    m = m.replace('/', ',')
+    return word, marks
 
-    marks =[r.strip() for r in m.split('|')]
 
-    if len(marks)>1:
-        multi_level = len(marks)
+def get_attrs(marks, word, line):
+    attrs = []
+    # multi-word_type: "all right adj./adv. A2" -> "all right adj.,adv. A2"
+    marks = marks.replace('/', ',')
 
-    for one_mark in marks:
-        s, _, level = one_mark.rpartition(' ')
+    # multi-levels
+    levels =[r.strip() for r in marks.split('|')]
+    for one_level in levels:
+        wtypes, _, level = one_level.rpartition(' ')
 
-        if level not in levels:
-            print('ERROR:%s' % repr(marks), repr(x), ' -> ', w,_,attrs)
+        if level not in word_levels:
+            print('ERROR:%s' % repr(marks), repr(line), ' -> ', word, attrs)
             break
 
-        one_attrs = [(g.strip(),level) for g in s.split(',')]
-        multi_attr = len(one_attrs) if len(one_attrs) > 1 else 0
+        level_wtypes = [(tp.strip(), level) for tp in wtypes.split(',')]
+        multi_attr = len(level_wtypes) if len(level_wtypes) > 1 else 0
 
-        attrs.extend(one_attrs)
+        attrs.extend(level_wtypes)
+    return attrs
 
-    if multi_level > 0:
-        #print('MULTI LEVELS:%s' % multi_level, repr(x), ' -> ', w,_,attrs)
-        pass
-    if multi_attr > 0:
-        #print('MULTI ATTRS:', repr(x), ' -> ', w,_,attrs)
-        pass
 
-    ret.append((w, attrs))
+# For example:
+# use char. '|' as unified seperator for multi-levels 
+# use char. ' ' as unified seperator between word type and level
+#  forturnately enumerate all word types and levels is possible.
+def format_text(text):
+    results = []
 
-ts = []
-for w,attrs in ret:
-    word_fmt = '%s|%s' %(w, ','.join(['%s:%s'%(h,l) for h, l in attrs]))
-    ts.append(word_fmt)
-print('\n'.join(sorted(set(ts))))
+    # "all det., pron. A1, adv. A2" -> "all det., pron. A1| adv. A2"
+    for k,n in [('%s,' % lv, '%s|' % lv)  for lv in word_levels]: 
+        text = text.replace(k,n)
+    
+    #from '{WORD_TYPE}{LEVEL}' to '{WORD_TYPE} {LEVEL}'
+    # eg: "climb v. A1, n.B1" -> "climb v. A1, n. B1"
+    ft=[('%s%s' % (tp,lv), '%s %s' % (tp,lv)) for tp in word_types for lv in word_levels]
+    for k,n in ft: 
+        text = text.replace(k,n)
+
+    for line in text.splitlines():
+        if len(line) < 1:
+            continue
+
+        word, marks = '', line.strip()
+   
+        if 0 and m.startswith('bear'):
+            import pdb;pdb.set_trace()
+
+        new_word, new_marks = get_word(marks, word)
+        attrs = get_attrs(new_marks, new_word, line)
+
+        results.append((new_word,attrs))
+   
+    return results
+
+   
+def print_results(rets, verbose=0):
+    oarray = []
+    wtypes = set()
+    for word, attrs in rets:
+        wtypes.update([wtp for wtp, level in attrs])
+        word_fmt = '%s|%s' %(word, ','.join(['%s:%s'%(tp,lv) for tp, lv in attrs]))
+        oarray.append(word_fmt)
+
+    if verbose > 0:
+        print('\n'.join(sorted(wtypes)))
+
+    if verbose > 1:
+        print('\n'.join(oarray))
+
+
+def main():
+    v = int(sys.argv[-1]) if len(sys.argv) > 1 and sys.argv[-1].isdigit() else 0
+    import pdb;pdb.set_trace()
+    orig_txt = cached_read_data(filename)
+    new_txt = line_continuity(orig_txt)
+    results = format_text(new_txt)
+    print_results(results, v)
+
+
+if '__main__' == __name__:
+    main()
+
