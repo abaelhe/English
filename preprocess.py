@@ -118,6 +118,9 @@ def get_attrs(marks, word, line):
 def format_text(text):
     results = []
 
+    # unified name for Noun
+    text = text.replace('noun.', 'n.')
+
     # "all det., pron. A1, adv. A2" -> "all det., pron. A1| adv. A2"
     for k,n in [('%s,' % lv, '%s|' % lv)  for lv in word_levels]: 
         text = text.replace(k,n)
@@ -134,9 +137,6 @@ def format_text(text):
 
         word, marks = '', line.strip()
    
-        if 0 and m.startswith('bear'):
-            import pdb;pdb.set_trace()
-
         new_word, new_marks = get_word(marks, word)
         attrs = get_attrs(new_marks, new_word, line)
 
@@ -153,16 +153,17 @@ def print_results(rets, verbose=0):
         word_fmt = '%s|%s' %(word, ','.join(['%s:%s'%(tp,lv) for tp, lv in attrs]))
         oarray.append(word_fmt)
 
-    if verbose > 0:
-        print('\n'.join(sorted(wtypes)))
-
-    if verbose > 1:
+    if verbose == 0:
+        print(repr(sorted(wtypes)))
+    elif verbose == 1:
         print('\n'.join(oarray))
+    elif verbose == 2:
+        print('\n'.join(oarray))
+        print(repr(sorted(wtypes)))
 
 
 def main():
     v = int(sys.argv[-1]) if len(sys.argv) > 1 and sys.argv[-1].isdigit() else 0
-    import pdb;pdb.set_trace()
     orig_txt = cached_read_data(filename)
     new_txt = line_continuity(orig_txt)
     results = format_text(new_txt)
